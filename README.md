@@ -1,11 +1,14 @@
 # Sound Communication Hand Signal Interpreter Final Project
 
-This is the project we've created with @ilaydatakir in UPF CSIM program Sound Communication course. This project interpret the hand signals and convert them into OSC messages to be used in any osc-compatible software. We've used wekinator to create a machine learning model that can recognize hand gestures and convert them into OSC messages.
+This is the project we've created with [Ilayda Takir](https://github.com/ilaydatakir) in UPF CSIM program Sound Communication course. This project interpret the hand signals and convert them into OSC messages to be used in any osc-compatible software. We've used wekinator to create a machine learning model that can recognize hand gestures and convert them into OSC messages.
 
-The sketch connects to `127.0.0.1:7400` in a background thread. The status panel
-shows **CONNECTED** once the handshake succeeds.
+The sketch connects to `127.0.0.1:7400` in a background thread. The status panel shows **CONNECTED** once the handshake succeeds.
 
----
+You will also need [mppbridge](https://github.com/wintergew/mppbridge) to be able to receive the information from mediapipe
+
+## Video Demo
+
+<https://raw.githubusercontent.com/wintergew/scfinalproject/refs/heads/master/repo_assets/demo.mp4>
 
 ## Keyboard controls (in Processing)
 
@@ -17,11 +20,9 @@ shows **CONNECTED** once the handshake succeeds.
 | `F` | Toggle face mesh |
 | `SPACE` | Toggle fullscreen |
 
----
-
 ## Wekinator Integration
 
-Wekinator OSC is sent **from Processing** (not from Python). It is **enabled by default** in the sketch.
+Wekinator OSC is sent **from Processing** (not from mppbridge).
 
 The sketch sends exactly **84 inputs** to Wekinator continuously.
 This corresponds to the X and Y coordinates of 21 joints for 2 hands (`2 × 21 × 2 = 84`).
@@ -49,5 +50,3 @@ This corresponds to the X and Y coordinates of 21 joints for 2 hands (`2 × 21 �
 11. water
 12. toilet
 ```
-
-##
