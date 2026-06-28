@@ -8,7 +8,7 @@ You will also need [mppbridge](https://github.com/wintergew/mppbridge) to be abl
 
 ## Video Demo
 
-https://github.com/user-attachments/assets/79aedfd4-e899-426e-8502-42c7a6f1e9cb
+<https://github.com/user-attachments/assets/79aedfd4-e899-426e-8502-42c7a6f1e9cb>
 
 ## Keyboard controls (in Processing)
 
@@ -18,6 +18,7 @@ https://github.com/user-attachments/assets/79aedfd4-e899-426e-8502-42c7a6f1e9cb
 | `H` | Toggle hand skeleton |
 | `G` | Toggle gesture HUD |
 | `F` | Toggle face mesh |
+| `T` | Test if TTS working by saying a random word |
 | `SPACE` | Toggle fullscreen |
 
 ## Wekinator Integration
