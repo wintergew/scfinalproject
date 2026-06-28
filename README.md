@@ -8,7 +8,7 @@ You will also need [mppbridge](https://github.com/wintergew/mppbridge) to be abl
 
 ## Video Demo
 
-<https://raw.githubusercontent.com/wintergew/scfinalproject/refs/heads/master/repo_assets/demo.mp4>
+https://github.com/user-attachments/assets/79aedfd4-e899-426e-8502-42c7a6f1e9cb
 
 ## Keyboard controls (in Processing)
 
